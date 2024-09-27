@@ -1,0 +1,40 @@
+* {
+    color: #00ab0b;
+    font-family: sans-serif;
+}
+
+header.block {
+    margin-top: 3rem;
+}
+
+.block {
+    width: 60%;
+    margin: 10px auto;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    border: 1.5px solid #00ab0b;
+
+    text-align: center;
+}
+
+.main {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+    border: none;
+}
+
+.main section {
+    min-height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    flex-basis: 130%;
+}
